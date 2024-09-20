@@ -22,10 +22,10 @@ export const Footer = () => {
                 <ul className="grid list-none gap-6 text-white">
                   <label className="font-semibold text-white">Platform</label>
                   <li>
-                    <Link href="/">Solutions</Link>
+                    <Link href="/">Services</Link>
                   </li>
                   <li>
-                    <Link href="/">How it works</Link>
+                    <Link href="/">Our Work</Link>
                   </li>
                   <li>
                     <Link href="/">Pricing</Link>
@@ -34,7 +34,7 @@ export const Footer = () => {
                 <ul className="grid list-none gap-6 text-white">
                   <label className="font-semibold text-white">Company</label>
                   <li>
-                    <Link href="/">Solutions</Link>
+                    <Link href="/">Services</Link>
                   </li>
                   <li>
                     <Link href="/">Careers</Link>
@@ -43,19 +43,19 @@ export const Footer = () => {
                     </span>
                   </li>
                   <li>
-                    <Link href="/">Pricing</Link>
+                    <Link href="/">Our Work</Link>
                   </li>
                 </ul>
                 <ul className="grid list-none gap-6 text-white">
                   <label className="font-semibold text-white">Resources</label>
                   <li>
-                    <Link href="/">Solutions</Link>
+                    <Link href="/">Services</Link>
                   </li>
                   <li>
-                    <Link href="/">How it works</Link>
+                    <Link href="/">About us</Link>
                   </li>
                   <li>
-                    <Link href="/">Pricing</Link>
+                    <Link href="/">Our Work</Link>
                   </li>
                 </ul>
               </div>
@@ -80,9 +80,7 @@ export const Footer = () => {
                   <span className="flex items-center justify-center rounded-full bg-primary-300 p-3">
                     <LindkedlnFooter />
                   </span>
-                  <p className="font-medium text-white">
-                    Follow us on Linkedln
-                  </p>
+                  <p className="font-medium text-white">Follow us on Twitter</p>
                 </div>
               </div>
             </div>

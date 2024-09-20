@@ -17,25 +17,80 @@ export const AboutUs = async () => {
               as="h2"
               className="text-section leading-none text-[#464647]"
             >
-              {aboutUs.heading}
+              Our Target Communities
             </Heading>
-            <p className="text-[#464647]">{aboutUs.excerpt}</p>
-            <ul className="mt-4 grid grid-cols-2 gap-4 xl:grid-cols-1">
+            <ul className="mb-4 grid grid-cols-2 gap-4 xl:grid-cols-1">
               <li className="flex items-center gap-3 text-[#464647]">
                 <Check />
-                Check item
+                Urban
               </li>
               <li className="flex items-center gap-3 text-[#464647]">
                 <Check />
-                Check item
+                Peri-Urban
               </li>
               <li className="flex items-center gap-3 text-[#464647]">
                 <Check />
-                Check item
+                Rural
               </li>
               <li className="flex items-center gap-3 text-[#464647]">
                 <Check />
-                Check item
+                Farm Resettlements
+              </li>
+            </ul>
+            <Heading
+              as="h2"
+              className="text-section leading-none text-[#464647]"
+            >
+              Our Target Groups
+            </Heading>
+            <ul className="mb-4 grid grid-cols-2 gap-4 xl:grid-cols-1">
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Women
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Vulnerable youths
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Religious groups
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                People with disabilities
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Elderly
+              </li>
+            </ul>
+            <Heading
+              as="h2"
+              className="text-section leading-none text-[#464647]"
+            >
+              Core Values
+            </Heading>
+            <ul className="mb-4 grid grid-cols-2 gap-4 xl:grid-cols-1">
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Confidentiality
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Pro-activeness
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Collaboration
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Nurturing
+              </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Measurement
               </li>
             </ul>
           </div>

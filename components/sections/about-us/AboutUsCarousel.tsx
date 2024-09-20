@@ -21,12 +21,12 @@ function AboutUsCarousel({ images }: { images: { url: string }[] }) {
     >
       {images.map((item: any, index: number) => {
         return (
-          <div key={index} className="w-full h-[450px]  sm:h-[700px]">
+          <div key={index} className="h-[450px] w-full  sm:h-[700px]">
             <Image
               src={item.url}
               alt="About Us Image"
               width={420}
-              className="w-full object-cover h-full rounded-3xl"
+              className="h-full w-full rounded-3xl object-cover"
               height={530}
             />
           </div>

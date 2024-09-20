@@ -13,10 +13,10 @@ const config: Config = {
       center: true,
       padding: {
         DEFAULT: "1rem",
-        sm: "2rem",
-        lg: "3rem",
-        xl: "7rem",
-        "2xl": "8rem",
+        sm: "1rem",
+        lg: "2rem",
+        xl: "5rem",
+        "2xl": "7rem",
       },
     },
     extend: {
@@ -36,10 +36,10 @@ const config: Config = {
         lg: "clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem)",
         label: "clamp(1rem, 1vw + 1.31rem, 1.2rem)",
         "sub-title": "clamp(1rem, 1.56vw + 1.56rem, 1.25rem)",
-        title: "clamp(2.44rem, 2.38vw + 1.85rem, 2.8rem)",
+        title: "clamp(2rem, 2vw + 1.85rem, 2rem)",
         features: "clamp(3.05rem, 3.54vw + 2.17rem, 5rem)",
-        section: "clamp(3.81rem, 5.18vw + 2.52rem, 4rem)",
-        hero: "clamp(4.77rem, 7.48vw + 2.9rem, 6rem)",
+        section: "clamp(1rem, 2vw + 2rem, 2rem)",
+        hero: "clamp(4.18rem, 5vw + 1rem, 1rem)",
       },
       colors: {
         primary: {

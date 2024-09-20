@@ -13,7 +13,7 @@ export const Metrics = async () => {
 
   const { metrics } = data;
   return (
-    <Section className="rounded-3xl bg-[#DEE1F8]">
+    <Section className="rounded-3xl bg-[#ffffff]">
       <Container>
         <SubTitle subTitle={metrics.tagline} className="text-primary-950" />
         <div>
@@ -29,15 +29,12 @@ export const Metrics = async () => {
                 return (
                   <div
                     key={index}
-                    className="flex flex-col items-start gap-6 rounded-3xl bg-primary-300 p-8"
+                    className="flex flex-col items-start gap-6 rounded-3xl bg-[#DEE1F8] p-8"
                   >
-                    <DynamicIcon name={capitalized(item.icon)} />
+                    {/* <DynamicIcon name={capitalized(item.icon)} /> */}
                     <div className="flex flex-col gap-6">
                       <Heading as="h3" className="text-title leading-none">
                         {item.heading}
-                      </Heading>
-                      <Heading as="h4" className="text-sub-title">
-                        {item.tagline}
                       </Heading>
                       <p className="text-neutral-800">{item.excerpt}</p>
                     </div>
