@@ -1,5 +1,7 @@
 "use client";
-import { Button, Logo, Menu } from "@/components/elements";
+// import { Whatsapp } from "@/components/elements";
+import { Whatsapp } from "@/components/elements/icons/Whatsapp";
+import { Logo, Menu } from "@/components/elements";
 import headerData from "@/data/header.json";
 
 import { useWindScreenowSize } from "@/hooks/useWindowSize";
@@ -33,7 +35,7 @@ export const Header = () => {
   return (
     <header
       className={cx(
-        " fixed w-full border-primary-300 bg-secondary-950 py-6 duration-300 sm:border-b-2",
+        " fixed w-full border-primary-300 bg-secondary-950 pb-4 pt-6 duration-300 sm:border-b-2",
         scrollDir === "down" ? "-translate-y-full" : "translate-y-0",
         isSanityStudio ? "z-0" : "z-20",
       )}
@@ -68,15 +70,14 @@ export const Header = () => {
           >
             <Menu />
           </button>
-          <Button variant="tetriary-reversed">
-            <Link
-              target="_blank"
-              href="https://www.linkedin.com/in/truongtritin-bruno/"
-              className="font-bold"
-            >
-              Get in touch
-            </Link>
-          </Button>
+          <Link href="https://wa.me/263771111788">
+            <div className="flex items-center gap-4 rounded-full bg-[#DEE1F8] p-1">
+              <Whatsapp />
+              <p className="pr-1 font-medium text-[#464647]">
+                WhatsApp Messenger
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
     </header>

@@ -21,44 +21,44 @@ const AboutUs = async () => {
 
   return (
     <React.Fragment>
-      <Section className="bg-white">
+      <Section className="bg-white pb-0 sm:pb-0">
         <Container>
-          <div className="grid grid-cols-1 md:grid-cols-2 mb-6">
+          <div className="mb-6 grid grid-cols-1 md:grid-cols-2">
             <Heading as="h1" className="text-hero">
               {hero.heading}
             </Heading>
             <div>
               <p className="mb-4">{hero.tagline}</p>
-              <Button variant="secondary">
+              {/* <Button variant="secondary">
                 <Link href={promotion.link}>{promotion.title}</Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
-          <div className="w-full rounded-xl overflow-hidden">
+          {/* <div className="w-full overflow-hidden rounded-xl">
             <Image
               src={hero.heroImage}
               alt="About us 1"
               width={450}
               height={320}
-              className="w-full h-full object-cover"
+              className="h-full w-full object-cover"
             />
-          </div>
+          </div> */}
         </Container>
       </Section>
-      <Section className="bg-white">
+      <Section className="bg-white pt-0 sm:pt-0">
         <Container>
           <Heading
             as="h2"
-            className="text-section leading-none capitalize mb-24"
+            className="mb-5 text-section capitalize leading-none"
           >
             {ourPhilosophy.heading}
           </Heading>
-          <div className="grid gap-4 sticky">
+          <div className="sticky grid gap-4">
             {ourPhilosophy.philosophys.map((item, index: number) => {
               return (
                 <div
                   key={index}
-                  className="grid md:grid-cols-2 py-12 bg-primary-300 p-4 rounded-3xl"
+                  className="grid rounded-3xl bg-primary-300 p-4 py-12 md:grid-cols-2"
                 >
                   <div>
                     <span>{item.tagline}</span>
@@ -73,10 +73,10 @@ const AboutUs = async () => {
           </div>
         </Container>
       </Section>
-      <div className="p-2 sm:p-4 bg-secondary-950">
+      <div className="bg-secondary-950 p-2 sm:p-4">
         <NewLetter />
       </div>
-      <Section className="bg-white">
+      {/* <Section className="bg-white">
         <Container>
           <Heading
             as="h2"
@@ -123,7 +123,7 @@ const AboutUs = async () => {
             })}
           </div>
         </Container>
-      </Section>
+      </Section> */}
     </React.Fragment>
   );
 };

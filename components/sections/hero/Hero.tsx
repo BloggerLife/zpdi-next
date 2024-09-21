@@ -12,7 +12,7 @@ const Hero = async () => {
   const { hero, gallery, promotion } = data;
 
   return (
-    <Section className="flex h-fit flex-col gap-32 bg-secondary-950">
+    <Section className="flex h-fit flex-col gap-32 bg-secondary-950 pb-0 sm:pb-0">
       <Container className="flex h-1/2 items-center justify-center">
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="text-[#464647]">
