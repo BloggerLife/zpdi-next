@@ -39,7 +39,7 @@ const config: Config = {
         title: "clamp(2rem, 2vw + 1.85rem, 2rem)",
         features: "clamp(3.05rem, 3.54vw + 2.17rem, 5rem)",
         section: "clamp(1rem, 2vw + 2rem, 2rem)",
-        hero: "clamp(4.18rem, 5vw + 1rem, 1rem)",
+        hero: "clamp(4.15rem, 5vw + 1rem, 1rem)",
       },
       colors: {
         primary: {

@@ -64,6 +64,10 @@ export const AboutUs = async () => {
                 <Check />
                 Elderly
               </li>
+              <li className="flex items-center gap-3 text-[#464647]">
+                <Check />
+                Widows and child headed families
+              </li>
             </ul>
             <Heading
               as="h2"
