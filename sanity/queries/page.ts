@@ -107,6 +107,7 @@ export async function getAboutpage() {
       'link': cta.link, 
       'image': image.asset-> url,
       tagline,
+      excerpt,
       heading
       }
     },
