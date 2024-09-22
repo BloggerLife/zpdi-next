@@ -70,7 +70,7 @@ export const AboutUs = async () => {
               </li>
               <li className="flex items-center gap-3 text-[#464647]">
                 <Check />
-                Widows and child headed families
+                Widows & child headed families
               </li>
             </ul>
             <Heading
