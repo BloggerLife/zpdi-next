@@ -15,13 +15,13 @@ const Hero = async () => {
     <Section className="flex h-fit flex-col gap-32 bg-secondary-950 pb-0 sm:pb-0">
       <Container className="flex h-1/2 items-center justify-center">
         <div className="grid grid-cols-1 xl:grid-cols-2">
-          <div className="text-[#464647]">
+          <div className="text-[#2A2D7B]">
             <Heading as="h1" className="text-hero leading-none">
               {hero.heading}
             </Heading>
           </div>
           <div className="mt-10 xl:mt-0">
-            <p className="mb-10 text-base text-[#464647]">{hero.tagline}</p>
+            <p className="mb-10 text-base text-[#2A2D7B]">{hero.tagline}</p>
             <Button variant="secondary">
               <Link href={promotion.link}>{promotion.title}</Link>
             </Button>

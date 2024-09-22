@@ -17,13 +17,10 @@ export const Footer = () => {
                 <ul className="grid list-none gap-6 text-white">
                   <label className="font-semibold text-white">Contact Us</label>
                   <li>
-                    <Link href="/">Email: zimpeacedevelopment@gmail.com </Link>
+                    <Link href="/">Email: zpdizw@gmail.com</Link>
                   </li>
                   <li>
-                    <Link href="/">Email: zpdi@gmail.com</Link>
-                  </li>
-                  <li>
-                    <Link href="/">Phone: +263 771 111 191</Link>
+                    <Link href="/">Phone: +263 771 111 788 </Link>
                   </li>
                 </ul>
                 <ul className="grid list-none gap-6 text-white">
