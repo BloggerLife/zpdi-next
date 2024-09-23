@@ -26,16 +26,16 @@ const textWithIllustrationType = defineType({
       type: "promotion",
     }),
     defineField({
-      name: "image",
-      type: "image",
+      name: "slider",
+      type: "gallery",
       options: { hotspot: true },
-      fields: [
-        defineField({
-          name: "alt",
-          type: "string",
-          title: "Alternative text",
-        }),
-      ],
+      // fields: [
+      //   defineField({
+      //     name: "alt",
+      //     type: "string",
+      //     title: "Alternative text",
+      //   }),
+      // ],
     }),
   ],
 });

@@ -105,7 +105,9 @@ export async function getAboutpage() {
       excerpt,
       'ourExperts':ourExperts[]{
       'link': cta.link, 
-      'image': image.asset-> url,
+      'slider':slider.images[].asset->{
+        'url':url
+      },
       tagline,
       excerpt,
       heading
