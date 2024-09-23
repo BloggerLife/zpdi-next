@@ -64,39 +64,39 @@ export const aboutUsType = defineType({
   },
 });
 
-// export type AboutUsType = {
-//   slug: string;
-//   hero: {
-//     heading: string;
-//     tagline: string;
-//     heroImage: string;
-//   };
-//   promotion: {
-//     link: string;
-//     title: string;
-//   };
-//   ourPhilosophy: {
-//     heading: string;
-//     cta: {
-//       link: string;
-//       title: string;
-//     };
-//     philosophys: {
-//       heading: string;
-//       tagline: string;
-//       excerpt: string;
-//     }[];
-//   };
-//   ourExperts: {
-//     heading: string;
-//     tagline: string;
-//     excerpt: string;
-//     ourExperts: {
-//       link: string;
-//       image: string[];
-//       tagline: string;
-//       heading: string;
-//       excerpt: string;
-//     }[];
-//   };
-// };
+export type AboutUsType = {
+  slug: string;
+  hero: {
+    heading: string;
+    tagline: string;
+    heroImage: string;
+  };
+  promotion: {
+    link: string;
+    title: string;
+  };
+  ourPhilosophy: {
+    heading: string;
+    cta: {
+      link: string;
+      title: string;
+    };
+    philosophys: {
+      heading: string;
+      tagline: string;
+      excerpt: string;
+    }[];
+  };
+  ourExperts: {
+    heading: string;
+    tagline: string;
+    excerpt: string;
+    ourExperts: {
+      link: string;
+      // image: string[];
+      // tagline: string;
+      // heading: string;
+      // excerpt: string;
+    }[];
+  };
+};
