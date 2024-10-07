@@ -23,7 +23,7 @@ function GalleryCarousel({ images }: { images: { url: string }[] }) {
         return (
           <div key={index} className="h-[450px] w-full  sm:h-[450px]">
             <Image
-              src={item.url}
+              src={item?.url}
               alt="About Us Image"
               width={320}
               className="h-full w-full rounded-3xl object-cover"
